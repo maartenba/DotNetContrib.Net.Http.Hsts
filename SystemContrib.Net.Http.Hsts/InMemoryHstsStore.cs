@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Concurrent;
 
-namespace MaartenBalliauw.Extensions.Http.Hsts
+namespace SystemContrib.Net.Http.Hsts
 {
     // TODO: Probably needs a more performant inner store
     public class InMemoryHstsStore : IHstsStore

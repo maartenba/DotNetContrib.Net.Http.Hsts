@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MaartenBalliauw.Extensions.Http.Hsts
+namespace SystemContrib.Net.Http.Hsts
 {
     public class HstsDomain
     {

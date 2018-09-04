@@ -1,10 +1,10 @@
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
-using MaartenBalliauw.Extensions.Http.Hsts.Tests.Infrastructure;
+using SystemContrib.Net.Http.Hsts.Tests.Infrastructure;
 using Xunit;
 
-namespace MaartenBalliauw.Extensions.Http.Hsts.Tests
+namespace SystemContrib.Net.Http.Hsts.Tests
 {
     public class HstsHandlerTests
     {

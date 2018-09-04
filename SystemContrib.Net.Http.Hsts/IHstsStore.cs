@@ -1,4 +1,4 @@
-﻿namespace MaartenBalliauw.Extensions.Http.Hsts
+﻿namespace SystemContrib.Net.Http.Hsts
 {
     public interface IHstsStore
     {
