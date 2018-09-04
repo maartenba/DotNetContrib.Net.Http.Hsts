@@ -39,7 +39,7 @@ namespace MaartenBalliauw.Extensions.Http.Hsts
             return Expires >= DateTimeOffset.UtcNow;
         }
 
-        public HstsDomain WithUpdated(bool includeSubdomains, bool permanent)
+        public HstsDomain ApplyUpdate(bool includeSubdomains, bool permanent)
         {
             // https://tools.ietf.org/html/rfc6797#section-8.1.1
             // The UA MUST NOT modify the expiry time or the includeSubDomains directive of any superdomain matched Known HSTS Host.

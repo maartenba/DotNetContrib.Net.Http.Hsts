@@ -51,7 +51,7 @@ namespace MaartenBalliauw.Extensions.Http.Hsts
                 {
                     if (existing.IncludeSubdomains != includeSubdomains || existing.Permanent != permanent)
                     {
-                        _innerStore[hostComponent] = existing.WithUpdated(includeSubdomains, permanent);
+                        _innerStore[hostComponent] = existing.ApplyUpdate(includeSubdomains, permanent);
                         return true;
                     }
                 }
