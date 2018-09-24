@@ -1,6 +1,7 @@
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
+using SystemContrib.Net.Http.Hsts.Stores;
 using SystemContrib.Net.Http.Hsts.Tests.Infrastructure;
 using Xunit;
 

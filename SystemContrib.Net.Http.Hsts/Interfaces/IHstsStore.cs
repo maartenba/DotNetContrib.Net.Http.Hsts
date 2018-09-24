@@ -1,4 +1,6 @@
-﻿namespace SystemContrib.Net.Http.Hsts
+﻿using SystemContrib.Net.Http.Hsts.Domain;
+
+namespace SystemContrib.Net.Http.Hsts.Interfaces
 {
     public interface IHstsStore
     {

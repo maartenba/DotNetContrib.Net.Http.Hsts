@@ -1,4 +1,4 @@
-﻿namespace SystemContrib.Net.Http.Hsts
+﻿namespace SystemContrib.Net.Http.Hsts.Domain
 {
     public static class HttpTransportScheme
     {
