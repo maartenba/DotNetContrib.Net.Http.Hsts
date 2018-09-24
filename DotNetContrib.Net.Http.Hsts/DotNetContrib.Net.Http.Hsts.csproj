@@ -4,7 +4,6 @@
         <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
         <LangVersion>7.3</LangVersion>
         <PackageId>DotNetContrib.Net.Http.Hsts</PackageId>
-        <PackageVersion>$(Version)</PackageVersion>
         <Authors>Maarten Balliauw</Authors>
         <Description>HTTP Strict Transport Security (HSTS) support for System.Net.HttpClient, enforcing HTTPS when required by the remote host or preload list.</Description>
         <Copyright>Maarten Balliauw</Copyright>
