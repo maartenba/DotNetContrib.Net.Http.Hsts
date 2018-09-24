@@ -1,7 +1,7 @@
 using System.Net;
 using System.Net.Http;
 
-namespace SystemContrib.Net.Http.Hsts.Tests.Infrastructure
+namespace DotNetContrib.Net.Http.Hsts.Tests.Infrastructure
 {
     public static class TestResponseHandlerBuilder
     {

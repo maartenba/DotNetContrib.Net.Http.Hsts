@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\SystemContrib.Net.Http.Hsts\SystemContrib.Net.Http.Hsts.csproj" />
+      <ProjectReference Include="..\DotNetContrib.Net.Http.Hsts\DotNetContrib.Net.Http.Hsts.csproj" />
     </ItemGroup>
 
 </Project>

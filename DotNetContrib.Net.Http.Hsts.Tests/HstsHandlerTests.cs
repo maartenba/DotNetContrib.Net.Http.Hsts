@@ -1,11 +1,11 @@
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
-using SystemContrib.Net.Http.Hsts.Stores;
-using SystemContrib.Net.Http.Hsts.Tests.Infrastructure;
+using DotNetContrib.Net.Http.Hsts.Stores;
+using DotNetContrib.Net.Http.Hsts.Tests.Infrastructure;
 using Xunit;
 
-namespace SystemContrib.Net.Http.Hsts.Tests
+namespace DotNetContrib.Net.Http.Hsts.Tests
 {
     public class HstsHandlerTests
     {

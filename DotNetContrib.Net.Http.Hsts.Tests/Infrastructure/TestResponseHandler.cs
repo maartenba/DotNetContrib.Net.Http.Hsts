@@ -3,7 +3,7 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace SystemContrib.Net.Http.Hsts.Tests.Infrastructure
+namespace DotNetContrib.Net.Http.Hsts.Tests.Infrastructure
 {
     public class TestResponseHandler : DelegatingHandler
     {

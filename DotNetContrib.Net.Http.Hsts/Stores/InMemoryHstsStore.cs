@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Concurrent;
-using SystemContrib.Net.Http.Hsts.Domain;
-using SystemContrib.Net.Http.Hsts.Interfaces;
+using DotNetContrib.Net.Http.Hsts.Domain;
+using DotNetContrib.Net.Http.Hsts.Interfaces;
 
-namespace SystemContrib.Net.Http.Hsts.Stores
+namespace DotNetContrib.Net.Http.Hsts.Stores
 {
     // TODO: Probably needs a more performant inner store
     public class InMemoryHstsStore : IHstsStore
