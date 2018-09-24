@@ -4,7 +4,7 @@ HTTP Strict Transport Security (HSTS) support for System.Net.HttpClient, enforci
 
 ## Installation (NuGet)
 
-	Install-Package DotNetContrib.Net.Http.Hsts
+	Install-Package DotNetContrib.Net.Http.Hsts -Prerelease
 
 ## Usage
 
