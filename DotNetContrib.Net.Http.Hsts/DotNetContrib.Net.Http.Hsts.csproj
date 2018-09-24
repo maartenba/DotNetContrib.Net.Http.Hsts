@@ -6,7 +6,7 @@
         <PackageId>DotNetContrib.Net.Http.Hsts</PackageId>
         <PackageVersion>0.0.1</PackageVersion>
         <Authors>Maarten Balliauw</Authors>
-        <Description>Add HTTP Strict Transport Security (HSTS) support for System.Net.HttpClient, enforcing HTTPS when required by the remote host or preload list.</Description>
+        <Description>HTTP Strict Transport Security (HSTS) support for System.Net.HttpClient, enforcing HTTPS when required by the remote host or preload list.</Description>
         <Copyright>Maarten Balliauw</Copyright>
         <PackageTags>http https hsts strict web transport security</PackageTags>
         <PackageProjectUrl>https://github.com/maartenba/DotNetContrib.Net.Http.Hsts</PackageProjectUrl>
