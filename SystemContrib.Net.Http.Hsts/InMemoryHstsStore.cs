@@ -19,11 +19,11 @@ namespace SystemContrib.Net.Http.Hsts
             }
 
             // Fetch applicable domain (full search)
-            foreach (var (_, value) in _innerStore)
+            foreach (var item in _innerStore)
             {
-                if (value.AppliesTo(hostComponent))
+                if (item.Value.AppliesTo(hostComponent))
                 {
-                    hstsDomain = value;
+                    hstsDomain = item.Value;
                     return true;
                 }
             }
