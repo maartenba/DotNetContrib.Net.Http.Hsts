@@ -36,3 +36,5 @@ store.Update("example.org", true, true, int.MaxValue);
 // will always request HTTPS URL:
 var response = await client.GetAsync("http://www.example.org");
 ```
+
+No [HSTS preload lists](https://github.com/maartenba/DotNetContrib.Net.Http.Hsts/issues/1) are currently included. [Feel free to contribute this](https://github.com/maartenba/DotNetContrib.Net.Http.Hsts/issues/1).
