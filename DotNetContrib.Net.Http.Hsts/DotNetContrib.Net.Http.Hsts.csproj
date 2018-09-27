@@ -10,6 +10,7 @@
         <PackageTags>http https hsts strict web transport security</PackageTags>
         <PackageProjectUrl>https://github.com/maartenba/DotNetContrib.Net.Http.Hsts</PackageProjectUrl>
         <RepositoryUrl>https://github.com/maartenba/DotNetContrib.Net.Http.Hsts</RepositoryUrl>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/maartenba/DotNetContrib.Net.Http.Hsts/master/LICENSE.md</PackageLicenseUrl>
         <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
         <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
