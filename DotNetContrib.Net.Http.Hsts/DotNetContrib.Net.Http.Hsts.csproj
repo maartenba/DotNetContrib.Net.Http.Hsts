@@ -19,7 +19,4 @@
         <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.1.1"/>
         <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta-63127-02" PrivateAssets="All"/>
     </ItemGroup>
-    <ItemGroup>
-        <DotNetCliToolReference Include="DotNetInit" Version="1.0.3"/>
-    </ItemGroup>
 </Project>
